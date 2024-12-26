@@ -19,4 +19,4 @@
 ## Installation Instructions
 1. Clone this repository:
    ```bash
-   git clone https://github.com/<YourUsername>/BudgetTracker.git
+   git clone https://github.com/sriram-2501/BudgetTracker.git
