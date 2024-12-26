@@ -1,18 +1,22 @@
-## Getting Started
+# BudgetTracker
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+## Description
+**BudgetTracker** is a Java-based console application that allows users to manage their personal finances. The application helps users track their daily, weekly, or monthly expenses and income, providing an overview of their spending habits. It uses basic file handling to store data, so the information persists even after the application is closed.
 
-## Folder Structure
+## Features
+- **Expense Tracking**: Users can add and categorize their daily expenses (e.g., Food, Entertainment, Utilities).
+- **Income Tracking**: Users can add their income and track their earnings.
+- **Category Summary**: See the total expenses per category (e.g., total spending on Food, Entertainment, etc.).
+- **Date-wise Report**: Generate reports based on dates (daily, weekly, monthly).
+- **Persistent Storage**: Data is saved and retrieved using file handling, ensuring no data is lost between sessions.
 
-The workspace contains two folders by default, where:
+## Tech Stack
+- **Java 8** or higher
+- File handling (to store and load expense data)
+- Object-Oriented Programming concepts (Classes, Objects, Methods)
+- Basic Console Input/Output (for user interaction)
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Installation Instructions
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/<YourUsername>/BudgetTracker.git
